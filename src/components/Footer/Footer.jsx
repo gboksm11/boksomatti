@@ -6,6 +6,7 @@ import {
     FooterLink,
     Heading,
   } from "./FooterStyles";
+  import { Link } from "react-router-dom";
 
 import gray_logo from '../../assets/logo-gray.png';
 import './footer.css';
@@ -17,14 +18,27 @@ const Footer = () => {
           <Container>
             <Row>
                 <Column>
-                    <img className="logo-footer" src={gray_logo}></img>
+                    <Link to={'/'}>
+                      <img className="logo-footer" src={gray_logo}></img>
+                    </Link>
                 </Column>
               <Column>
                 <Heading>Quick Links</Heading>
-                <FooterLink href="#">About Us</FooterLink>
-                <FooterLink href="#">Products</FooterLink>
-                <FooterLink href="#">News</FooterLink>
-                <FooterLink href="#">Contact Us</FooterLink>
+                <Link to={'/about'} className='footer-links'>
+                  <FooterLink>About Us</FooterLink>
+                </Link>
+
+                <Link to={'/products'} className='footer-links'>
+                <FooterLink>Products</FooterLink>
+                </Link>
+
+                <Link to={'/news'} className='footer-links'>
+                  <FooterLink>News</FooterLink>
+                </Link>
+
+                <Link to={'/contact-us'} className='footer-links'>
+                  <FooterLink>Contact Us</FooterLink>
+                </Link>
               </Column>
               <Column>
                 <Heading>Contact Us</Heading>

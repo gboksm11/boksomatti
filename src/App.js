@@ -9,6 +9,7 @@ import Technical from './pages/Technical';
 import Contact from './pages/Contact';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (

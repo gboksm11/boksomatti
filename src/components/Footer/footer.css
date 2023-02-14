@@ -9,6 +9,10 @@
     width: 300px;
 }
 
+.footer-links {
+    margin-bottom: 20px;
+}
+
 @media screen and (max-width: 768px) {
     .logo-footer {
         width: 50vw;

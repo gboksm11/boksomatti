@@ -7,6 +7,7 @@ const HomeCarousel = () => {
     return (
         <Carousel
             autoPlay={true}
+            autoFocus={true}
             infiniteLoop={true}
             centerMode={true}
             centerSlidePercentage={100}
