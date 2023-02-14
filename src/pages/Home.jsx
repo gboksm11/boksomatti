@@ -41,7 +41,7 @@ const Home = () => {
                             <div className="who-we-are-init">
                                 <p className="home-title">Who We Are</p>
                                 {/* <img className="logo-alone" source={gray_logo}></img> */}
-                                <p className="home-subtitle">Boksomatti for Surveying Instruments co. specializes in the distribution and technical
+                                <p className="home-subtitle-init">Boksomatti for Surveying Instruments co. specializes in the distribution and technical
                                     service of measurement solutions for surveying, mapping and GIS, civil engineering,
                                     industrial measurement, and construction applications in Saudi Arabia.</p>
                             </div>
@@ -83,19 +83,19 @@ const Home = () => {
                                 <div className="browsing-categ">
                                     <p className="browsing-label">General Surveying</p>
                                     <img className="browsing-img" src={gen_surveying}></img>
-                                    <BlackButton label='Browse General'/>
+                                    <BlackButton label='Coming Soon'/>
                                 </div>
 
                                 <div className="browsing-categ">
                                     <p className="browsing-label">Digital Theodolites</p>
                                     <img className="browsing-img" src={theodolite}></img>
-                                    <BlackButton label='Browse DTs'/>
+                                    <BlackButton label='Coming Soon'/>
                                 </div>
 
                                 <div className="browsing-categ">
                                     <p className="browsing-label">UAVs</p>
                                     <img className="browsing-img" src={uav}></img>
-                                    <BlackButton label='Browse UAVs'/>
+                                    <BlackButton label='Coming Soon'/>
                                 </div>
                             </div>
                         </div>

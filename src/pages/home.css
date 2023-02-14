@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Open+Sans:wght@300;400&family=Roboto+Mono:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Open+Sans:wght@300;400&family=Roboto+Mono:wght@500&family=Titillium+Web&display=swap');
 html,body
    {
         width: 100%;
         height: 100%;
         margin: 0px;
         padding: 0px;
+    }
+
+@font-face {
+    font-family: AppleSoft;
+    src: url('../assets/alinmaa-font.ttf');
     }
 
 .home-container {
@@ -36,18 +40,28 @@ html,body
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto Mono', monospace;
+    font-family: AppleSoft;
     margin-bottom: 0px;
 }
 
 .home-subtitle {
     font-size: 20px;
     color: black;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto Mono', monospace;
+    font-family: AppleSoft;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    text-align: center;
+}
+
+.home-subtitle-init {
+    font-size: 20px;
+    color: black;
+    font-family: AppleSoft;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 .partners-container {
@@ -123,9 +137,7 @@ html,body
 
 .browsing-label {
     color: black;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto Mono', monospace;
+    font-family: AppleSoft;
 }
 
 .browsing-img {

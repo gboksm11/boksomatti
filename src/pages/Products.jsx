@@ -8,8 +8,8 @@ const Products = () => {
              <h1 className="maintenance-title">Page Under Maintenance</h1>
                 <p className="maintenance-subtitle">
                     We are working hard on updating our products page to enhance
-                    your browsing experience. Feel free to <Link to='../contact-us'><span className="contact-hyper">
-                    contact</span></Link> us for any of your inquiries.
+                    your browsing experience. Feel free to
+                    contact us for any of your inquiries.
                 </p>
             </div>
 

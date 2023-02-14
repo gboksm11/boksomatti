@@ -1,3 +1,8 @@
+@font-face {
+    font-family: AppleSoft;
+    src: url('../assets/alinmaa-font.ttf');
+}
+
 .subtitle-container {
     width: 40vw;
     height: 100px;
@@ -9,9 +14,7 @@
 }
 
 .news-subtitle {
-    font-family: 'Inter', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto Mono', monospace;
+    font-family: AppleSoft;
     font-size: 24px;
     width: 80vw;
     margin-left: auto;

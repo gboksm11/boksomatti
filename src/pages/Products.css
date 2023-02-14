@@ -1,3 +1,8 @@
+@font-face {
+    font-family: AppleSoft;
+    src: url('../assets/alinmaa-font.ttf');
+}
+
 .products-container {
     height: 50vh;
 }
@@ -11,12 +16,14 @@
 }
 
 .maintenance-subtitle {
-    font-family: 'Inter', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto Mono', monospace;;
+    font-family: AppleSoft;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
 }
 
 .contact-hyper {

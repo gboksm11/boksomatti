@@ -1,3 +1,8 @@
+@font-face {
+    font-family: AppleSoft;
+    src: url('../assets/alinmaa-font.ttf');
+}
+
 .about-container {
     display: flex;
     flex-direction: column;
@@ -15,12 +20,11 @@
     width: 60%;
     font-size: 20px;
     margin-top: 5vh;
-    text-align: left;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
     margin-left: 10px;
-    text-justify:distribute-all-lines;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto Mono', monospace;
+    font-family: AppleSoft;
 }
 
 @media screen and (max-width: 768px) {

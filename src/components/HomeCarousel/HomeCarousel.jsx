@@ -2,6 +2,8 @@ import { Carousel } from "react-responsive-carousel"
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import img_1 from "../../assets/carousel-img-1.jpg";
 import img_2 from "../../assets/carousel-img-2.png";
+import img_3 from "../../assets/carousel-img-3.jpg";
+
 
 const HomeCarousel = () => {
     return (
@@ -21,6 +23,10 @@ const HomeCarousel = () => {
             </div>
             <div>
                 <img src={img_2} />
+            </div>
+
+            <div>
+                <img src={img_3} />
             </div>
         </Carousel>
     )

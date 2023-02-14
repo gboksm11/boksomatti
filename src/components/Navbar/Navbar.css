@@ -7,17 +7,22 @@ imp
     margin: 0;
 }
 
+@font-face {
+    font-family: AppleSoft;
+    src: url('../../assets/alinmaa-font.ttf');
+    }
+
 
 
 body {
-    font-family: sans-serif;
+    font-family: AppleSoft;
     font-size: 16px;
     margin: 0px;
 }
 
 nav {
     background-image: linear-gradient(black, #202121);
-    padding: 0 15px;
+    padding: 0 15px 10px;
     margin: 0px;
 }
 
@@ -105,8 +110,10 @@ ul {
 }
 
 li {
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Roboto Mono', monospace;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Titillium Web', sans-serif;
   font-size: 20px;
 }
 
