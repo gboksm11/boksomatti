@@ -38,6 +38,7 @@ export const Row = styled.div`
   display: flex;
   flex-wrap:wrap;
   justify-content: space-around;
+  padding-top: 20px;
    
   @media (max-width: 768px) {
     grid-template-columns: repeat(auto-fill, 
