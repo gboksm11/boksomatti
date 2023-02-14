@@ -1,0 +1,25 @@
+.products-container {
+    height: 50vh;
+}
+
+.maintenance-wrapper {
+    margin-top: 10vh;
+}
+
+.maintenance-title {
+    font-size: 50px;
+}
+
+.maintenance-subtitle {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-hyper {
+    color: black;
+    font-weight: bold;
+}

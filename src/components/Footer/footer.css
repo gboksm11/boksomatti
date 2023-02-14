@@ -8,3 +8,13 @@
     margin-bottom: auto;
     width: 300px;
 }
+
+@media screen and (max-width: 768px) {
+    .logo-footer {
+        width: 50vw;
+    }
+
+    .contact-footer li {
+        font-size: 12px;
+    }
+}

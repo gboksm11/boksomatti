@@ -2,15 +2,18 @@
 import styled from 'styled-components';
    
 export const Box = styled.div`
-  padding: 80px 60px;
   background-image: linear-gradient(black, #202121);
   position: absolute;
   width: 100%;
+  overflow: hidden;
   margin-top: 10vh;
   
    
-  @media (max-width: 1000px) {
-    padding: 70px 30px;
+  @media (max-width: 768px) {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 `;
    
@@ -18,8 +21,6 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 1000px;
-    margin: 0 auto;
     /* background: red; */
 `
    
@@ -27,18 +28,23 @@ export const Column = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin-left: 60px;
+
+  @media (max-width: 768px) {
+    margin-left: 0px;
+  }
 `;
    
 export const Row = styled.div`
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 
-                         minmax(185px, 1fr));
-  grid-gap: 20px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
    
-  @media (max-width: 1000px) {
+  @media (max-width: 768px) {
     grid-template-columns: repeat(auto-fill, 
                            minmax(200px, 1fr));
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 `;
    
@@ -47,6 +53,8 @@ export const FooterLink = styled.a`
   margin-bottom: 20px;
   font-size: 18px;
   text-decoration: none;
+  margin-left: 5px;
+  text-align: center;
    
   &:hover {
       color: white;
@@ -59,4 +67,8 @@ export const Heading = styled.p`
   color: #fff;
   margin-bottom: 40px;
   font-weight: bold;
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 `;

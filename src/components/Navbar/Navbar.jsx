@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 import "./Navbar.css";
 import logo from "../../assets/logo-site.png";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
 
@@ -21,36 +22,66 @@ const Navbar = (props) => {
       if (isMobile) {
         return (
           <>
-          <li className={"item " + (toggle ? "active" : "")}><a href="#">Home</a></li>
-          <li className={"item " + (toggle ? "active" : "")}><a href="#">About</a></li>
-          <li className={"item " + (toggle ? "active" : "")}><a href="#">News</a></li>
-          <li className={"item " + (toggle ? "active" : "")}><a href="#">Products</a></li>
-          <li className={"item " + (toggle ? "active" : "")}><a href="#">Contact Us</a></li>
+          <Link to={'/'}>
+            <li className={"item " + (toggle ? "active" : "")}><a>Home</a></li>
+          </Link>
+
+          <Link to={'/about'}>
+            <li className={"item " + (toggle ? "active" : "")}><a>About</a></li>
+          </Link>
+
+          <Link to={'/news'}>
+            <li className={"item " + (toggle ? "active" : "")}><a>News</a></li>
+          </Link>
+
+          <Link to={'/products'}>
+            <li className={"item " + (toggle ? "active" : "")}><a>Products</a></li>
+          </Link>
+
+          <Link to={'/contact-us'}>
+            <li className={"item " + (toggle ? "active" : "")}><a>Contact Us</a></li>
+          </Link>
           </>
         )
       } else {
         return(
           <div className="nav-items">
-            <li className={"item " + (toggle ? "active" : "")}><a href="#">Home</a></li>
-            <li className={"item " + (toggle ? "active" : "")}><a href="#">About</a></li>
-            <li className={"item " + (toggle ? "active" : "")}><a href="#">News</a></li>
-            <li className={"item " + (toggle ? "active" : "")}><a href="#">Products</a></li>
-            <li className={"item " + (toggle ? "active" : "")}><a href="#">Contact Us</a></li>
+
+            <Link to={'/'}>
+              <li className={"item " + (toggle ? "active" : "")}><a>Home</a></li>
+            </Link>
+
+            <Link to={'/about'}>
+              <li className={"item " + (toggle ? "active" : "")}><a>About</a></li>
+            </Link>
+
+            <Link to={'/news'}>
+              <li className={"item " + (toggle ? "active" : "")}><a>News</a></li>
+            </Link>
+
+            <Link to={'/products'}>
+              <li className={"item " + (toggle ? "active" : "")}><a>Products</a></li>
+            </Link>
+
+            <Link to={'/contact-us'}>
+              <li className={"item " + (toggle ? "active" : "")}><a>Contact Us</a></li>
+            </Link>
+
+
+
           </div>
         )
       }
     }
 
-
-    console.log(toggle);
     return (        
     <nav>
         <ul className="menu">
-            <img className="img-logo" src={logo}></img>
+            <Link to={'/'}>
+              <img className="img-logo" src={logo}></img>
+            </Link>
+
             {renderNavItems()}
-            {/* <li className={"item " + (toggle ? "active" : "")}><a href="#">Home</a></li>
-            <li className={"item " + (toggle ? "active" : "")}><a href="#">About</a></li>
-            <li className={"item " + (toggle ? "active" : "")}><a href="#">Contact Us</a></li> */}
 
             <FontAwesomeIcon className="toggle-icon" icon={toggle ? faX : faBars} onClick={() => {isToggled(!toggle)}}/>
         </ul>

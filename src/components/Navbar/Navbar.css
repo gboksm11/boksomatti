@@ -53,6 +53,7 @@ a {
 }
 
 .img-logo {
+    cursor: pointer;
     align-self: center;
 }
 

@@ -25,7 +25,6 @@ const Home = () => {
 
     return(
         <>
-            <Navbar/>
             <div className="home-container">
                 <div className="carousel-container">
                     <HomeCarousel/>
@@ -55,11 +54,19 @@ const Home = () => {
                     delay={1}>
                     <div className="who-we-are">
                         <p className="home-title">"Precision Measured<br/> Results Guaranteed"</p>
-                        <p className="home-subtitle">Get to know our partners in achieving the highest surveying standards</p>
+                        <p className="home-subtitle">Get to know our partners in achieving the highest surveying standards.</p>
                         <div className="partners-container">
-                            <img className="juniper-img" onClick={() => {window.open('https://junipersys.com/')}} src={juni_img}></img>
-                            <img className="geo-img" onClick={() => {window.open('https://geoslam.com/')}} src={geo_img}></img>
-                            <img className="sok-img" onClick={() => {window.open('https://sokkia.com/')}} src={sok_img}></img>
+                            <div className="img-wrapper">
+                                <img className="juniper-img" onClick={() => {window.open('https://junipersys.com/')}} src={juni_img}></img>
+                            </div>
+
+                            <div className="img-wrapper">
+                                <img className="geo-img" onClick={() => {window.open('https://geoslam.com/')}} src={geo_img}></img>
+                            </div>
+
+                            <div className="img-wrapper">
+                                <img className="sok-img" onClick={() => {window.open('https://sokkia.com/')}} src={sok_img}></img>     
+                            </div>
                         </div>
                     </div>
                 </AnimationOnScroll>
@@ -95,8 +102,6 @@ const Home = () => {
                     </Link>
                 </AnimationOnScroll>
             </div>
-
-            <Footer/>
         </>
 
     )

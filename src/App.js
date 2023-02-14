@@ -7,10 +7,13 @@ import News from './pages/News';
 import Products from './pages/Products';
 import Technical from './pages/Technical';
 import Contact from './pages/Contact';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
+    <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
@@ -19,6 +22,7 @@ function App() {
         <Route path="/technical" element={<Technical/>}/>
         <Route path="/contact-us" element={<Contact/>}/>
       </Routes>
+    <Footer/>
     </div>
   );
 }

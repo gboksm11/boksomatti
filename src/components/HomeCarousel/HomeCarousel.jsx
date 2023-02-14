@@ -11,6 +11,9 @@ const HomeCarousel = () => {
             centerMode={true}
             centerSlidePercentage={100}
             dynamicHeight={false}
+            showThumbs={false}
+            showStatus={false}
+            showIndicators={false}
             >
             <div>
                 <img src={img_1} />

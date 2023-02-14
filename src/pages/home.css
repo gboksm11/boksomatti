@@ -38,7 +38,7 @@ html,body
     margin-left: auto;
     font-family: 'Inter', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto Mono', monospace;;
+    font-family: 'Roboto Mono', monospace;
     margin-bottom: 0px;
 }
 
@@ -67,21 +67,24 @@ html,body
 }
 
 .juniper-img {
-    width: 300px;
+    width: 100%;
     cursor: pointer;
 
 }
 
 .geo-img {
-   width: 250px;
-   height: 150px;
+   width: 100%;
    cursor: pointer;
 }
 
 .sok-img {
-    width: 300px;
-    height: 150px;
+    width: 100%;
     cursor: pointer;
+}
+
+.img-wrapper {
+    padding: 10px;
+    flex-basis: 30%;
 }
 
 .who-we-are, .who-we-are-init {
@@ -96,6 +99,7 @@ html,body
     flex-direction: column;
     flex-wrap: wrap;
     overflow: hidden;
+    padding-bottom: 5vh;
 }
 
 .who-we-are {
@@ -173,8 +177,8 @@ html,body
     }
 
     .browsing-img {
-        width: 100px;
-        height: 40px;
+        width: 135px;
+        height: 100px;
         min-width: 0px;
     }
 
