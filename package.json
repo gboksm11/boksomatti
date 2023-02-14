@@ -6,16 +6,22 @@
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
+<<<<<<< HEAD
     "@iconify/icons-mdi": "^1.2.41",
     "@iconify/react": "^4.1.0",
+=======
+>>>>>>> bd248f3881897b464f1a1bc85eb0bea77304cff3
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
+<<<<<<< HEAD
     "dotenv": "^16.0.3",
     "google-map-react": "^2.2.0",
     "google-maps-react": "^2.0.6",
+=======
+>>>>>>> bd248f3881897b464f1a1bc85eb0bea77304cff3
     "react": "^18.2.0",
     "react-animation-on-scroll": "^5.1.0",
     "react-dom": "^18.2.0",
