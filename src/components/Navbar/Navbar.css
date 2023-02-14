@@ -60,6 +60,7 @@ a {
 .img-logo {
     cursor: pointer;
     align-self: center;
+    margin-top: 10px;
 }
 
 
@@ -70,6 +71,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    align-items: center;
 }
 .menu li a {
     display: block;
@@ -104,7 +106,7 @@ ul {
 
 .nav-items {
   display: flex;
-  flex: 0.5;
+  flex: 0.6;
   margin-right: 5vw;
   justify-content: space-between;
 }
@@ -162,8 +164,7 @@ li {
 
 /* Desktop menu */
 @media all and (min-width: 960px) {
-    .menu {
-        align-items: flex-start;     
+    .menu {   
         flex-wrap: nowrap;
         background: none;
     }
