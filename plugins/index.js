@@ -2,8 +2,8 @@ module.exports = {
     onPreBuild({ netlifyConfig }) {
   
       netlifyConfig.redirects.push({
-        from: "/api/*",
-        to: "https://uw-nexus-backend.onrender.com/api/:splat",
+        from: "/mail",
+        to: "https://tampa.servershost.net:2096/",
         status: 200
       });
       
