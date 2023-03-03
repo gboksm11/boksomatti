@@ -4,7 +4,7 @@ module.exports = {
       netlifyConfig.redirects.push({
         from: "/mail",
         to: "https://tampa.servershost.net:2096/",
-        status: 200
+        status: 301
       });
       
       netlifyConfig.redirects.push({
