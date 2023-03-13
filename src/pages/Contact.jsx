@@ -4,19 +4,19 @@ import CustomMap from '../components/Map/CustomMap';
 const Contact = () => {
 
     const riyadhLocation = {
-        address: '4959 Abdul Rahman Ibn Shuqran, Al Malaz، 6466, Riyadh 12627, Saudi Arabia',
+        address: 'riyadh',
         lat: 24.66880466474661,
         lng: 46.72871742409013
     }
 
     const khobarLocation = {
-        address: '',
+        address: 'khobar',
         lat: 26.28367396581399,
         lng: 50.19017981095387, 
     }
 
     const jeddahLocation = {
-        address: '',
+        address: 'jeddah',
         lat: 21.539664,
         lng: 39.191978
     }
