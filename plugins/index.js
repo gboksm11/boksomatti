@@ -6,6 +6,12 @@ module.exports = {
         to: "https://tampa.servershost.net:2096/",
         status: 301
       });
+
+      netlifyConfig.redirects.push({
+        from: "/admin",
+        to: "https://tampa.servershost.net:2083/",
+        status: 301
+      });
       
       netlifyConfig.redirects.push({
         from: "/*",

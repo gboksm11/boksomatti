@@ -3,10 +3,22 @@ import CustomMap from '../components/Map/CustomMap';
 
 const Contact = () => {
 
-    const location = {
+    const riyadhLocation = {
         address: '4959 Abdul Rahman Ibn Shuqran, Al Malaz، 6466, Riyadh 12627, Saudi Arabia',
         lat: 24.66880466474661,
         lng: 46.72871742409013
+    }
+
+    const khobarLocation = {
+        address: '',
+        lat: 26.28367396581399,
+        lng: 50.19017981095387, 
+    }
+
+    const jeddahLocation = {
+        address: '',
+        lat: 21.539664,
+        lng: 39.191978
     }
 
     return(
@@ -53,14 +65,52 @@ const Contact = () => {
                         <p className='panel-title'>Find Us</p>
                         <div className='map-wrapper'>
                             <div className='location-content'>
-                                <p className='location-text'>Riyadh Office: </p>
-                                <p className='location-text'>4959, Abdul Rahman Ibn Shuqran </p>
-                                <p className='location-text'> Al Malaz, Riyadh 12627 - 6466</p>
+                                <div className='location-text-wrapper'>
+                                    <p className='location-text'>Riyadh Office: </p>
+                                    <p className='location-text'>4959, Abdul Rahman Ibn Shuqran </p>
+                                    <p className='location-text'> Al Malaz, Riyadh 12627 - 6466</p>
+                                </div>
+
                                 {/* <p className='location-text'> Riyadh 12627, Saudi Arabia</p> */}
+                                <div className='google-map-wrapper'>
+                                    <CustomMap location={riyadhLocation} zoomLevel={5}></CustomMap>      
+                                 </div>
                             </div>
-                            <CustomMap location={location} zoomLevel={5}></CustomMap>
                         </div>
 
+                        <div className='map-seperator'></div>
+
+                        <div className='map-wrapper'>
+                            <div className='location-content'>
+                                <div className='location-text-wrapper'>
+                                    <p className='location-text'>Khobar Branch: </p>
+                                    <p className='location-text'>Intersection of Makkah Al Mukarramah St. with 4th St. </p>
+                                    <p className='location-text'> Al-Thuqbah, Khobar</p>
+                                </div>
+
+                                {/* <p className='location-text'> Riyadh 12627, Saudi Arabia</p> */}
+                                <div className='google-map-wrapper'>
+                                    <CustomMap location={khobarLocation} zoomLevel={5}></CustomMap>      
+                                 </div>
+                            </div>
+                        </div>
+
+                        <div className='map-seperator'></div>
+
+                        <div className='map-wrapper'>
+                            <div className='location-content'>
+                                <div className='location-text-wrapper'>
+                                    <p className='location-text'>Jeddah Branch: </p>
+                                    <p className='location-text'>Al-Andalus Plaza, 16 King Fahd Br Road </p>
+                                    <p className='location-text'> Mishrifah, Jeddah 21544</p>
+                                </div>
+
+                                {/* <p className='location-text'> Riyadh 12627, Saudi Arabia</p> */}
+                                <div className='google-map-wrapper'>
+                                    <CustomMap location={jeddahLocation} zoomLevel={5}></CustomMap>      
+                                 </div>
+                            </div>
+                        </div>
                 </div>
             </div>
 

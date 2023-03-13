@@ -40,9 +40,10 @@
 
 .location-content {
     display: flex;
-    flex-direction: column;
-    width: 50%;
+    flex-direction: row;
+    width: 100%;
 }
+
 
 .location-text {
     text-align: left;
@@ -50,6 +51,10 @@
     display: flex;
     margin-top: 0px;
     margin-bottom: 10px;
+}
+
+.google-map-wrapper {
+    margin-left: auto;
 }
 
 .panel-title {
@@ -74,6 +79,14 @@
     margin-bottom: 5vh;
 }
 
+.map-seperator {
+    background-color: #ebedf0;
+    border-color: #ebedf0;
+    height: 2px;
+    width: calc(100% - 5vw);
+    margin-bottom: 10vh;
+}
+
 @media screen and (max-width: 768px) {
     .panel-title {
         font-size: 37px;
@@ -88,11 +101,23 @@
 
     .location-content {
         width: 100%;
+        flex-direction: column;
     }
 
     .map-wrapper {
         flex-direction: column;
     }
+
+    .google-map-wrapper {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 2vh;
+    }
+
+    .map-seperator {
+        margin-bottom: 7vh;
+    }
+    
 
     .location-text {
         width: 90%;
