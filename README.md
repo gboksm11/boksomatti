@@ -55,11 +55,11 @@ Welcome to the repository for the [Boksomatti]((https://boksomatti.com)) website
 
 1. Make sure you're on the `main` branch:
 
-       ```git checkout main```
+       git checkout main
 
 2. Pull the latest changes:
 
-       ```git pull```
+       git pull
 
 3. Make your changes to the code.
 
@@ -70,7 +70,7 @@ Welcome to the repository for the [Boksomatti]((https://boksomatti.com)) website
 
 5. Push your changes to the repository:
 
-        ```git push origin main```
+        git push origin main
 
 ## 🌐 Deploying to Netlify
 
