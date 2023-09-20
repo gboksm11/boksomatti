@@ -20,10 +20,8 @@ Welcome to the repository for the [Boksomatti]((https://boksomatti.com)) website
   
   b. After installation, open your terminal or command prompt and run the following commands to verify the installation:
   
-    ````
-          node -v
-          npm -v
-    ````
+    ```node -v```
+    ```npm -v```
 
 ### 2. Installing Git:
 
