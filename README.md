@@ -69,7 +69,7 @@ Welcome to the repository for the [Boksomatti]((https://boksomatti.com)) website
 
 5. Push your changes to the repository:
 
-     git push origin main
+       git push origin main
 
 ## 🌐 Deploying to Netlify
 
