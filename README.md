@@ -53,9 +53,9 @@ Welcome to the repository for the [Boksomatti]((https://boksomatti.com)) website
 
 ## 🔄 Updating the Code and Website
 
-1. Make sure you're on the `main` branch:
+1. Make sure you're on the `master` branch:
 
-       git checkout main
+       git checkout master
 
 2. Pull the latest changes:
 
@@ -70,10 +70,10 @@ Welcome to the repository for the [Boksomatti]((https://boksomatti.com)) website
 
 5. Push your changes to the repository:
 
-        git push origin main
+        git push origin master
 
 ## 🌐 Deploying to Netlify
 
-The website is hosted on Netlify, and there's an automatic deployment setup. Every time you push to the `main` branch in the repository, Netlify will automatically detect the changes and deploy the updated website. So, once you've pushed your changes to the `main` branch, just wait a few minutes, and your updates will be live on the website!
+The website is hosted on Netlify, and there's an automatic deployment setup. Every time you push to the `master` branch in the repository, Netlify will automatically detect the changes and deploy the updated website. So, once you've pushed your changes to the `master` branch, just wait a few minutes, and your updates will be live on the website!
 
 
