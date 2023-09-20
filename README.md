@@ -33,16 +33,14 @@ Welcome to the repository for the [Boksomatti]((https://boksomatti.com)) website
   
   b. After installation, open your terminal or command prompt and run the following command to verify the installation:
   
-  \```bash
-  git --version
-  \```
+  ```git --version```
 
 ### 3. Cloning the Repository:
 
-  \```bash
-  git clone [repository-url]
-  cd [repository-name]
-  \```
+
+  ```git clone [repository-url]```
+  ```cd [repository-name]```
+
 
 ### 4. Installing Dependencies:
 
