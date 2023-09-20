@@ -20,8 +20,9 @@ Welcome to the repository for the [Boksomatti]((https://boksomatti.com)) website
   
   b. After installation, open your terminal or command prompt and run the following commands to verify the installation:
   
-    ```node -v
-        npm -v```
+    ````  node -v
+          npm -v
+    ````
 
 ### 2. Installing Git:
 
@@ -42,11 +43,11 @@ Welcome to the repository for the [Boksomatti]((https://boksomatti.com)) website
 
 ### 4. Installing Dependencies:
 
-    ```npm install```
+    npm install
 
 ### 5. Running the Website Locally:
 
-    ```npm start```
+    npm start
 
   This will start the development server, and the website should open in your default browser.
 
