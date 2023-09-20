@@ -36,8 +36,8 @@ Welcome to the repository for the [Boksomatti]((https://boksomatti.com)) website
 ### 3. Cloning the Repository:
 
 
-    ```git clone [repository-url]```
-    ```cd [repository-name]```
+    ```git clone [repository-url]
+    cd [repository-name]```
 
 
 ### 4. Installing Dependencies:
