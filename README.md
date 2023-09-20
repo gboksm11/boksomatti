@@ -36,17 +36,17 @@ Welcome to the repository for the [Boksomatti]((https://boksomatti.com)) website
 ### 3. Cloning the Repository:
 
 
-    ```git clone [repository-url]
-    cd [repository-name]```
+    git clone [repository-url]
+    cd [repository-name]
 
 
 ### 4. Installing Dependencies:
 
-    ```npm install```
+    npm install
 
 ### 5. Running the Website Locally:
 
-    ```npm start```
+    npm start
 
   This will start the development server, and the website should open in your default browser.
 
@@ -54,22 +54,22 @@ Welcome to the repository for the [Boksomatti]((https://boksomatti.com)) website
 
 1. Make sure you're on the `main` branch:
 
-     ```git checkout main```
+     git checkout main
 
 2. Pull the latest changes:
 
-     ```git pull```
+     git pull
 
 3. Make your changes to the code.
 
 4. Once you've made your changes, add and commit them:
 
-       ```git add .```
-       ```git commit -m "Your descriptive commit message here"```
+       git add .
+       git commit -m "Your descriptive commit message here"
 
 5. Push your changes to the repository:
 
-     ```git push origin main```
+     git push origin main
 
 ## 🌐 Deploying to Netlify
 
